@@ -1,0 +1,1968 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+img:hover {
+	opacity: 0.7;
+}
+
+h6 {
+	margin: 0;
+}
+
+.men-icon ul {
+    visibility: hidden;
+}
+
+.men-logo:hover ul {
+    visibility: visible;
+    /* transition: all 0.8s ease; */
+}
+
+.men-logo:hover {
+    opacity: 0.8;
+    transition: all 0.8s ease;
+}
+
+.craft ul {
+     visibility: hidden; 
+}
+
+.craft:hover ul {
+    visibility: visible;
+}
+
+.thanos li:hover a {
+    color: red;
+    /* background: black; */
+}
+
+.thanos li:hover {
+    background: black;
+}
+
+.baby-shop:hover .thanos {
+    visibility: visible;
+}
+
+.thanos {
+     visibility: hidden; 
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	margin:0;
+}
+
+/* Header */
+
+header .row {
+	margin-bottom: 14px;
+}
+
+.logo {
+	margin-top: 19px;
+}
+
+ul {
+	margin-bottom: 0;
+}
+
+.top-menu ul {
+	margin-top: 13px;
+	margin-bottom: 10px;
+}
+
+.top-menu ul li {
+	float: left;
+	margin-left: 30px;
+	/* display: inline-block; */
+}
+
+.top-menu ul li a {
+	font-size: 16px;
+	color: #434343;
+	text-decoration: none;
+}
+
+.top-menu ul li:hover a {
+    color: red;
+}
+.bottom-menu ul li {
+	float: left;
+	margin-left: 5px;
+}
+
+.bottom-menu ul li a {
+	font-size: 16px;
+	color: #fff;
+	padding: 25px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.bottom-menu ul li:hover a {
+    color: yellow;
+    opacity: 0.8;
+}
+
+.mot {
+	background: #05aecc;
+}
+
+.hai {
+	background: #f0626e;
+}
+
+.bottom-menu {
+	background: #f6f6f6;
+}
+
+.bottom-menu ul li i {
+	padding-left: 14px;
+}
+
+header .navbar-default {
+	background: #fff;
+	border: none;
+}
+
+.bonus-menu {
+	padding: 0 50px;
+	background: #05aecc;
+}
+
+.conde .navbar-nav>li>a {
+	color: #fff;
+	padding: 30px;
+	font-size: 16px;
+}
+
+.conde .navbar-nav>li>a:hover {
+	color: #ef5966;
+	background-color: #fff;
+}
+
+.white-beard:hover .marco {
+	display: block;
+}
+
+.marco {
+	padding: 10px 16px 16px 20px;
+	background: #fffefb;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	min-width: 260px;
+}
+
+.cugia {
+	padding: 17px 0;
+	border-bottom: 1px solid #cacaca;
+}
+
+.left-kon {
+	margin-right: 14px;
+}
+
+.right-kon {
+/*	display: inline-block;
+	width: 140px;*/
+}
+
+.right-kon a {
+	font-size: 16px;
+	color: #ef5966;
+}
+
+.right-kon p {
+	font-size: 14px;
+	margin: 0;
+	line-height: normal;
+	padding-bottom: 6px;
+}
+
+.right-kon button {
+	padding: 7px 26px;
+	font-size: 12px;
+	color: #fff;
+	background: #05aecc;
+	border: none;
+}
+
+.samurai {
+	display: inline-block;
+	padding: 14px 0 0 0;
+	font-size: 16px;
+	color: #ef5966;
+}
+
+header .navbar {
+	margin-bottom: 0;
+}
+/* End Header */
+
+
+/* Banner */
+
+.banner {
+	margin: 15px 0 25px 0;
+}
+
+.banner .col-md-5 {
+	padding-left: 0;
+}
+
+.conrua {
+	margin-bottom: 5px;
+}
+
+
+
+.men-wear {
+	padding: 18px 22px;
+	background: #3b2c51;
+	opacity: 0.8;
+	display: inline-block;
+	width: 52%;
+	margin-bottom: 2px;
+	position: absolute;
+	bottom: 64px;
+	left: 15px;
+}
+
+.men-wear h2 {
+	font-family: 'Aparajita', serif;
+	font-size: 58px;
+	color: #ef5966;
+	margin: 0;
+}
+
+.men-wear p {
+	font-size: 13px;
+	color: #fff;
+}
+
+.banner h6 {
+	font-family: 'Aparajita', serif;
+	font-size: 20px;
+	color: #fff;
+	padding: 14px 25px;
+	background: #d95363;
+	opacity: 0.8;
+	display: inline-block;
+	position: absolute;
+	bottom: 7px;
+}
+
+.women-wear {
+	background: #51445e;
+	padding: 16px 14px;
+	display: inline-block;
+	width: 54%;
+	opacity: 0.8;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+
+.women-wear h3 {
+	font-family: 'Aparajita', serif;
+	font-size: 35px;
+	margin: 0;
+	color: #ef5966;
+}
+
+.women-wear p {
+	font-size: 12px;
+	color: #fff;
+}
+
+.chuy {
+	margin-top: 15px;
+}
+
+.chuy:hover ul.thanos {
+	visibility: visible;
+}
+
+.mini-item {
+	position: absolute;
+	right: 15px;
+	top: 62%;
+	/* display: inline-block; */
+}
+
+.thanos li {
+	float: left;
+	display: inline-block;
+	padding: 20px 12px;
+}
+
+.thanos li a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+._1st {
+	background: #05aecc;
+}
+
+._2nd {
+	background: #00a1be;
+	padding: 15.4px 12px !important;
+}
+
+._3rd {
+	background: #f0626e;
+	padding: 15.4px 12px !important;
+}
+
+._4th {
+	background: #323232;
+	font-size: 20px;
+	padding: 16px 12px !important;
+}
+
+.search-box {
+	padding: 38px 50px;
+	background: #f0626e;
+	margin-bottom: 2px;
+}
+
+.search-box form input[type="text"] {
+	padding: 29px 0 29px 23px;
+	font-size: 16px;
+	width: 77%;
+}
+
+.search-box form button {
+	position: absolute;
+	background: none;
+	border: none;
+	color: #fff;
+	transform: rotate(90deg);
+	top: 60px;
+	right: 54px;
+}
+
+.search-box form button:focus {
+	outline: none;
+}
+
+.crafts-list-item {
+	position: absolute;
+	bottom: 0;
+	right: 15px;
+	visibility: hidden;
+}
+
+.crafts:hover .crafts-list-item {
+	visibility: visible;
+}
+
+.crafts-list-item ul li {
+	float: left;
+	position: relative;
+}
+
+.crafts-list-item ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.crafts-list-item ul li a:hover {
+	color: red;
+}
+
+.crafts-list-item ul li:hover {
+	background: black;
+}
+
+.dauhoi1 {
+	background: #5e5063;
+	opacity: 0.7;
+	font-size: 30px;
+	padding: 13px 48px;
+}
+
+.dauhoi2 {
+	background: #00a1be;
+	padding: 13px 15px;
+}
+
+.dauhoi3 {
+	background: #f0626e;
+	padding: 13px 15px;
+}
+
+.dauhoi3:hover .add-to-cart {
+	visibility: visible;
+}
+
+.dauhoi4 {
+	background: #434343;
+	font-size: 25px;
+	padding: 16.5px 15px;
+}
+
+.add-to-cart {
+	position: absolute;
+	font-size: 13px;
+	padding: 8px 24px;
+	width: 116px;
+	border: 1px solid #f0626e;
+	top: -39px;
+	left: -21px;
+	font-weight: bold;
+	background: #fff;
+	border-radius: 8px;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+.add-to-cart::after {
+	content: "";
+	position: absolute;
+	display: inline-block;
+	border-top: 12px solid white;
+	border-right: 12px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 12px solid transparent;
+	bottom: -12px;
+	z-index: 9999;
+	left: 45px;
+}
+
+.too-hard {
+	padding: 26px 62px 26px 24px;
+	background: #503d59;
+	opacity: 0.8;
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: 113px;
+	/* display: inline-block; */
+	right: -98px;
+	width: 77%;
+}
+
+.too-hard h2 {
+	font-family: 'Aparajita', serif;
+	font-size: 62px;
+	color: #fff;
+}
+
+.maudo {
+	position: absolute;
+	top: -10px;
+	right: 14px;
+	padding: 53px 17px;
+	background: #ee6470;
+}
+
+.maudo::after {
+	content:"";
+	position: absolute;
+	border-top: 0 solid transparent;
+	border-right: 0 solid transparent;
+	border-bottom: 10px solid #ee6470;
+	border-left: 13px solid transparent;
+	top: 0;
+	left: -12px;
+}
+
+.white-circle {
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	background: #fff;
+}
+
+.white-circle a {
+	color: #ee6470;
+}
+
+/* End Banner */
+
+/* New Products */
+
+.new-products {
+	padding: 25px 0 28px 0;
+}
+
+.new-products-title {
+	padding-left: 31px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #b9b9b9;
+	position: relative;sss
+}
+
+.new-products-title h3 {
+	margin:0;
+	font-size: 30px;
+	color: #00a1be;
+}
+
+.special-border {
+	width: 202px;
+	height: 1px;
+	background: red;
+	position: absolute;
+	bottom:-1px;
+}
+
+.item {
+	cursor: pointer;
+}
+
+.new-products .item:hover ul.thanos {
+    visibility: visible;
+}
+
+.new-products .item:hover {
+    opacity: 0.8;
+    transition: all 0.9s ease;
+}
+
+.new-products-content {
+	padding-top: 28px;
+}
+
+.remain ul {
+	position: absolute;
+	top: 79px;
+	left: 50px;
+}
+
+.new-products .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+     display: block; 
+}
+
+.new-products .owl-prev {
+	position: absolute;
+	top: -75px;
+	right: 50px;
+}
+
+.new-products .owl-next {
+	position: absolute;
+	top: -75px;
+	right: -5px;
+}
+
+.new-products .owl-theme .owl-nav [class*=owl-] {
+	padding: 20px 22px;
+	border-radius: 0;
+	background: #3c3c3c;
+}
+
+.new-products .owl-theme .owl-nav [class*=owl-]:hover {
+	background: #05aecc;
+}
+
+
+/* End New Products */
+
+/* Featured */
+
+.featured {
+	margin-top: 28px;
+}
+
+.featured-content {
+	margin-top: 28px;
+}
+
+.featured-top {
+	position: relative;
+}
+
+.featured-top:hover {
+    opacity: 0.8;
+    transition: all 0.7s ease;
+}
+
+.hard {
+	padding: 12px 9px;
+	background: #f0626e;
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	top: 13px;
+	left: 2px;
+}
+
+.caysao {
+	padding: 15px 14px;
+}
+
+.caysao h6 {
+	margin: 0;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+.caysao a {
+	font-size: 13px;
+	color: #f0626e;
+	text-decoration: none;
+}
+
+.conco ul li {
+	float: left;
+	padding: 10px 16px;
+	border: 2px solid #b9b9b9;
+}
+
+.conco ul li:hover a {
+    color: blueviolet;
+    /* background: blanchedalmond; */
+}
+
+.conco ul li:hover {
+    background: blanchedalmond;
+}
+
+.conco ul li a {
+	color: #b9b9b9;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.camphich {
+	background: #f0626e;
+	border: 2px solid #f0626e !important;
+}
+
+.camphich a {
+	color: #fff !important;
+
+}
+
+.caymia {
+	padding: 12px 24px;
+	left: 0;
+	background: #05aecc;
+}
+
+.convac {
+	color: #05aecc !important;
+}
+
+.odien {
+	background: #05aecc;
+	border: 2px solid #05aecc !important;
+}
+
+
+.featured .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+     display: block; 
+}
+
+.featured .owl-prev {
+	position: absolute;
+	top: -102px;
+	right: 50px;
+}
+
+.featured .owl-next {
+	position: absolute;
+	top: -102px;
+	right: -5px;
+}
+
+.featured .owl-theme .owl-nav [class*=owl-] {
+	padding: 20px 22px;
+	border-radius: 0;
+	background: #3c3c3c;
+}
+
+.featured .owl-theme .owl-nav [class*=owl-]:hover {
+	background: #f0626e;
+}
+
+/* End Featured */
+
+/* Men Products */
+
+.men-products {
+	margin: 20px 0 40px 0;
+}
+
+.men-products-content {
+	margin-top: 30px;
+}
+
+.men-logo {
+	position: relative;
+
+}
+
+.men-icon {
+	display: inline-block;
+	position: absolute;
+	top: 164px;
+	left: 74px;
+}
+
+.men-icon ul li {
+	float: left;
+	margin: 0 10px;
+	padding: 7px 10px;
+}
+
+.men-icon ul li a {
+	color: cyan;
+}
+
+.flash {
+	background: #f0626e;
+
+}
+
+.batman {
+	background: #05aecc;
+
+}
+
+.men-cost a {
+	font-size: 18px;
+	color: orange;
+	padding-top: 8px;
+	display: inline-block;
+}
+
+.men-cost a:hover {
+    color: aquamarine;
+}
+
+.men-cost p {
+	font-size: 18px;
+}
+
+p.hoola {
+	color: red;
+}
+
+.men-products .owl-nav.disabled {
+	display: none;
+}
+/* End Men Products */
+
+/* Women Products */
+
+.women-products {
+	margin-top: 28px;
+}
+
+.women-products-content {
+	margin-top: 20px;
+}
+
+
+/* End Women Products */
+
+/* Kid Products */
+
+.kid-products {
+	margin-top: 28px;
+}
+
+.kid-products-content {
+	margin-top: 20px;
+}
+
+/* End Kid Products */
+
+/* Associate Products */
+
+.associate-products {
+	margin-top: 28px;
+}
+
+.associate-products-content {
+	margin-top: 20px;
+}
+
+/* End Associate Products */
+
+/* Who we are */
+
+.who-we-are {
+	margin-top: 28px;
+}
+
+.who-we-are-content {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #b9b9b9;
+}
+
+.who-we-are-content-top {
+	padding: 0 11px 36px 11px;
+}
+
+.who-we-are-content-top p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.who-we-are-btn {
+	margin-top: 30px;
+}
+
+button.btn-primary {
+	border-radius: 0;
+	padding: 19px 242px;
+	background: #05aecc;
+	font-size: 22px;
+	border: none;
+}
+
+/* End Who we are */
+
+/* Footer */
+
+.footer-content {
+	padding: 54px 0 32px 0;
+	border-bottom: 1px solid #b9b9b9;
+}
+
+.footer-content h6 {
+	margin: 0;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.footer-content a {
+	color: #434343;
+}
+
+.footer-mini-item {
+	margin-top: 47px;
+}
+
+.footer-mini-item ul li {
+	font-size: 16px;
+	padding-bottom: 7px;
+}
+
+.cu-khoai  input[type="text"] {
+	padding: 30px 0 30px 30px ;
+	border: 1px solid #b9b9b9;
+	font-size: 14px;
+	color: #474747;
+	width: 100%;
+}
+
+.cu-khoai input[type="submit"] {
+	width: 100%;
+	border-radius: 0;
+	padding: 20px 132px;
+	border: none;
+	font-size: 14px;
+	background: #05aecc;
+}
+
+.icon-social {
+	margin-top: 34px;
+}
+
+.icon-social ul li {
+	float: left;
+	margin-right: 10px;
+
+}
+
+.icon-social h6 {
+	padding-bottom: 18px;
+}
+
+.icon-social ul li a {
+	font-size: 24px;
+	padding: 15px 17px;
+	color: #fff;
+}
+
+.icon-social ul li:hover a {
+    color: magenta;
+}
+
+.kimchi {
+	background: #f8bc2e;
+}
+
+.kimchi1 {
+	background: #39599f;
+}
+
+.kimchi2 {
+	background: #45b0e3;
+}
+
+.kimchi3 {
+	background: #fff;
+	border: 1px solid #dbdbdb;
+	padding: 15px 26px !important;
+}
+
+li.gozila {
+	position: relative;
+}
+
+.kimchi4 {
+	background: #1872bf;
+
+}
+
+span.double-circle::after {
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: #0063dc;
+	top: 10px;
+	left: 10px;
+}
+
+
+span.double-circle::before {
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: #ff0084;
+	top: 10px;
+	right: 10px;
+}
+
+
+.copy-right {
+	padding: 26px 0 26px 24px;
+	font-size: 14px;
+}
+
+.copy-right ul li a {
+	color: hotpink;
+	font-size: 14px;
+}
+
+/* End Footer */
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 1199px) {
+	.conde .navbar-nav>li>a {
+		padding: 19px;
+	}
+
+	.men-wear {
+		width: 62%;
+	}
+
+	.banner h6 {
+		padding: 14px 23.6px;
+	}
+
+	.women-wear {
+	    width: 65%;
+	    top: 57%;
+	}
+
+	.thanos li {
+		padding: 16px 12px;
+	}
+
+	._2nd {
+		padding: 11.6px 12px !important;
+	}
+
+	._3rd {
+		padding: 11.6px 12px !important;
+	}
+
+	._4th {
+		padding: 12px !important;
+	}
+
+	.search-box form button {
+		top: 38px;
+		right: 39px;
+	}
+
+	.search-box {
+		padding: 26px 50px;
+	}
+
+	.search-box form input[type="text"] {
+	    padding: 29px 0 29px 23px;
+	    font-size: 13px;
+	    width: 77%;
+	}
+
+	.too-hard {
+		bottom: 81px;
+		right: -65px;
+	}
+
+	.remain ul {
+	    position: absolute;
+	    top: 65px;
+	    left: 29px;
+	}
+
+	.remain .thanos li {
+		padding: 11px 12px;
+	}
+
+	.remain .thanos li._2nd {
+		padding: 6.6px 10px !important;
+	}
+
+	.remain .thanos li._3rd {
+		padding: 6.6px 10px !important;
+	}
+
+	.remain .thanos li._4th {
+		font-size: 13px;
+	}
+
+	.conco ul li {
+		padding: 10px;
+	}
+
+	.men-icon {
+		top: 110px;
+		left: 42px;
+	}
+	
+	.cu-khoai  input[type="text"] {
+		padding: 20px 0 20px 30px;
+	}
+
+	.cu-khoai input[type="submit"] {
+		padding: 20px 90px;
+	}
+
+	.icon-social ul li a {
+	    font-size: 20px;
+	    padding: 15px 14px;
+	    color: #fff;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+	.bonus-menu {
+		padding: 0 6px;
+	}
+
+	.conde .navbar-nav>li>a {
+		padding: 12px;
+	}
+
+	.men-wear {
+		padding: 18px;
+	}
+
+	.men-wear h2 {
+		font-size: 44px;
+	}
+
+	.men-wear p {
+		font-size: 12px;
+	}
+
+	.banner h6 {
+		padding: 14px 15px;
+		font-size: 16px;
+	}
+
+	.women-wear {
+		width: 70%;
+		top: 53%;
+		padding: 4px 10px;
+	}
+
+	.women-wear h3 {
+		font-size: 28px;
+	}
+
+	.thanos li {
+		padding: 9px 5px;
+	}
+
+	._2nd {
+		padding: 4.6px 6px !important;
+	}
+
+	._3rd {
+		padding: 4.6px 6px !important; 
+	}
+
+	._4th {
+		padding: 5px !important;
+	}
+
+	.search-box {
+		padding: 27.4px 6px;
+	}
+
+	.search-box form input[type="text"] {
+	    padding: 12px 0px 12px 4px;
+	    font-size: 13px;
+	    width: 77%;
+	}
+	
+	.search-box form button {
+	    top: 32px;
+	    right: 26px;
+	}
+
+	i.fa-search {
+		font-size: 34px;
+	}
+
+	.dauhoi1 {
+		padding: 9px 8px;
+	}
+
+	.dauhoi2 {
+		padding: 9px 13px;
+	}
+
+	.dauhoi3 {
+		padding: 9px 13px;
+	}
+
+	.dauhoi4 {
+		padding: 12.5px 13px;
+	}
+
+	.too-hard {
+	    bottom: 71px;
+	    right: -57px;
+	    padding: 16px 10px;
+	    min-width: 76%;
+	}
+
+	.too-hard h2 {
+		font-size: 33px;
+	}
+
+	.maudo {
+	    top: -10px;
+	    right: 14px;
+	    padding: 27px 10px;
+	}
+
+	.new-products .owl-theme .owl-nav [class*=owl-] {
+	    padding: 12px 18px;
+	}
+
+	.new-products .owl-prev {
+	    top: -59px;
+	    right: 43px;
+	}
+	.new-products .owl-next {
+	    top: -59px;
+	    right: -5px;
+	}
+
+	.remain ul {
+	    top: 54px;
+	    left: 11px;
+	}
+
+	.remain .thanos li {
+	    padding: 6px 4px;
+	}
+
+	.remain .thanos li._2nd {
+	    padding: 1.6px 6px !important;
+	}
+
+	.remain .thanos li._3rd {
+	    padding: 1.6px 6px !important;
+	}
+
+	.remain .thanos li._4th {
+	    padding: 7px !important;
+	}
+
+	.featured .owl-theme .owl-nav [class*=owl-] {
+	    padding: 12px 18px;
+	}
+
+	.featured .owl-prev {
+	    top: -87px;
+	    right: 47px;
+	}
+
+	.featured .owl-next {
+	    top: -87px;
+	    right: -5px;
+	}
+
+	.hard {
+		padding: 10px 6px;
+		font-size: 11px;
+	}
+
+	.caymia {
+		left: 2px;
+	}
+
+	.conco ul li {
+		padding: 3px;
+	}
+
+	.men-icon {
+		top: 82px;
+		left: 18px;
+	}
+	
+	.men-icon ul {
+		display: flex;
+	} 
+
+	.cu-khoai input[type="submit"] {
+	    padding: 20px 56px;
+	}
+	
+	.icon-social ul li {
+	    margin-right: 8px;
+	}
+
+	.icon-social ul li a {
+	    padding: 8px;
+	}
+
+	.kimchi3 {
+	    padding: 8px 17px !important;
+	}
+
+	span.double-circle::before {
+		top: 10px;
+		right: 6px;
+		width: 10px;
+		height: 10px;
+	}
+
+	span.double-circle::after {
+		top: 10px;
+		left: 6px;
+		width: 10px;
+		height: 10px;
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+	ul.marco {
+		padding: 10px;
+		position: absolute;
+		right: 26%;
+		min-width: auto;
+		width: 230px;
+	}
+	
+	.men-wear {
+		width: 40%;
+	}
+
+	.cugia {
+		padding: 6px 0;
+	}
+
+	.left-kon {
+		margin-right: 0;
+	}
+
+	.men-wear {
+		padding: 10px;
+	}
+
+	.banner h6 {
+	    padding: 14px 32px;
+	}
+	
+	.banner .col-md-5 {
+		padding-left: 15px;
+		margin-top: 10px;
+	}
+
+	.women-wear {
+	    width: 38%;
+	    top: 80%;
+	    padding: 4px 10px;
+	}
+	
+	.women-wear h3 {
+	    font-size: 40px;
+	}
+	
+	.thanos li {
+	    padding: 22px 12px;
+	}
+
+	._2nd {
+	    padding: 17.6px 16px !important;
+	}
+
+	._3rd {
+	    padding: 17.6px 16px !important;
+	}
+	
+	._4th {
+	    padding: 18px !important;
+	}
+	
+	.mini-item {
+		top: 74%;
+	}
+	
+	.search-box form button {
+	    right: 54px;
+	}
+	
+	.too-hard h2 {
+		font-size: 64px;
+	}
+
+	.too-hard {
+		min-width: auto;
+		width: 60%;
+		padding: 26px 10px;
+		bottom: 154px;
+    	right: -139px;
+	}
+	
+	.women-products-content .row {
+		display: flex;
+	}
+
+	.kid-products-content .row {
+		display: flex;
+	}
+
+	.associate-products-content .row {
+		display: flex;
+	}
+
+	.maudo {
+		padding: 54px 30px;
+	}
+
+	.who-we-are-content-bottom .row {
+		display: flex;
+	}
+
+	.footer-content {
+		padding: 32px 0;
+	}
+
+	.footer-content .row {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	header .col-md-2 {
+		width: 0;
+		max-height: 0;
+	}
+
+	header .col-md-10 {
+		width: 100%;
+	}
+
+	.top-menu ul {
+		width: 100%;
+	}
+
+	.top-menu ul li {
+		margin-left: 18px;
+	}
+
+	.bottom-menu ul li a {
+		padding: 21px;
+	}
+
+	ul.marco {
+		right: 0;
+		padding: 10px;
+	}
+
+	.right-kon button {
+	    padding: 5px 6px;
+	    width: 100%;
+	    margin-top: 2px;
+	}
+
+	.men-wear h2 {
+		font-size: 40px;
+	}
+
+	.banner h6 {
+	    padding: 14px 28px;
+	}
+
+	.conrua .col-lg-7 {
+		margin-bottom: 4px;
+	}
+
+	.banner .col-md-5 {
+	    padding-left: 15px;
+	}
+	
+	.men-wear {
+		width: 62%;
+	}
+
+	.women-wear {
+	    width: 57%;
+	    top: 68%;
+	    padding: 4px 8px;
+	}
+	
+	.mini-item {
+		top: 66%;
+	}
+
+	.search-box form button {
+	    right: 30px;
+	}
+
+	.jewelry {
+		margin-top: 4px;
+	}
+
+	.too-hard {
+	    bottom: 100px;
+	    right: -84px;
+	    width: 70%;
+	}
+
+	.women-products-content .row {
+	    display: initial;
+	}
+
+	.kid-products-content .row {
+    	display: initial;
+	}
+
+	.associate-products-content .row {
+	    display: initial;
+	}
+
+	.too-hard h2 {
+	    font-size: 50px;
+	}
+
+	.maudo {
+	    padding: 36.6px 10px;
+	}
+	
+	.remain ul {
+		top: 104px;
+		left: 94px;
+	}
+
+	.remain .thanos li {
+		padding: 15px;
+	}
+
+	.remain .thanos li._2nd {
+	    padding: 10.6px 12px !important;
+	}
+
+	.remain .thanos li._3rd {
+	    padding: 10.6px 12px !important;
+	}
+
+	.remain .thanos li._4th {
+	    padding: 16px !important;
+	}
+
+	.conco ul li {
+		padding: 9px;
+	}
+
+	.men-icon {
+	    top: 126px;
+	    left: 43px;
+	}
+
+	button.btn-primary {
+		padding: 19px 160px;
+	}
+
+	.footer-content .row {
+	    display: initial;
+	}
+	
+	.footer-content {
+	    padding:0;
+	}
+
+	.footer-mini-item {
+	    margin-top: 10px;
+	}
+
+	.footer-content .col-xs-12 {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.icon-social {
+		margin-top: 26px;
+	}
+
+	.icon-social ul li a {
+	    padding: 10px;
+	}
+}
+
+
+@media screen and (max-width: 414px) {
+	.top-menu ul li {
+	    margin-left: 9px;
+	}
+
+	.bottom-menu {
+		background: transparent;
+	}
+
+	.bottom-menu ul li {
+	    margin-left: 0;
+	    margin: 4px;
+	}
+
+	.bottom-menu ul li a {
+	    padding: 11px;
+	}
+
+	ul.marco {
+		right: 0;
+	}
+
+	.banner h6 {
+	    padding: 14px 8px;
+	}
+
+	.women-wear {
+	    top: 64%;
+	    width: 66%;
+	}
+
+	.thanos li {
+	    padding: 14px 10px;
+	}
+	
+	._2nd {
+	    padding: 9.4px 16px !important;
+	}
+
+	._3rd {
+	    padding: 9.4px 16px !important;
+	}
+
+	._4th {
+		padding: 10px !important;
+	}
+
+	.too-hard {
+	    bottom: 86px;
+	    right: -71px;
+	    padding: 16px 10px;
+	}
+
+	.search-box form button {
+	    right: 24px;
+	}
+	
+	.new-products-title {
+		padding-left: 8px;
+	}
+	
+	.who-we-are-content-bottom .row {
+	    display: initial;
+	}
+
+	.remain ul {
+	    top: 82px;
+	    left: 72px;
+	}
+
+	.conco ul li {
+	    padding: 5px;
+	}
+
+	.men-icon {
+		top: 92px;
+		left: 24px;
+	}
+
+	.who-we-are-content-bottom .col-xs-12 {
+		margin-bottom: 20px;
+	}
+
+	button.btn-primary {
+	    padding: 19px 126px;
+	}
+
+	.copy-right ul li {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.top-menu ul li {
+	    margin-left: 6px;
+	}
+
+	.top-menu ul li a {
+	    font-size: 15px;
+	}
+
+	.bottom-menu ul li a {
+	    padding: 6px;
+	}
+
+	ul.marco {
+		width: 212px;
+	}
+
+	.banner h6 {
+	    padding: 14px 3px;
+	    font-size: 15px;
+	}
+
+	.women-wear {
+	    top: 59%;
+	    width: 73%;
+	}
+
+	.search-box form button {
+	    top: 35px;
+	    right: 26px;
+	}
+
+	i.fa-search {
+	    font-size: 28px;
+	}	
+
+	.dauhoi1 {
+		padding: 2px 8px;
+	}
+	
+	.dauhoi2 {
+		padding: 8.4px 13px;
+	}
+
+	.dauhoi3 {
+		padding: 8.4px 13px;
+	}
+
+	.dauhoi4 {
+		padding: 5.4px 13px;
+	}
+
+	.dauhoi2 i {
+		font-size: 2em;
+	}
+
+	.dauhoi3 i {
+		font-size: 2em;
+	}
+
+	.add-to-cart {
+		top: -38px;
+		left: -31px;
+	}
+
+	.too-hard {
+	    bottom: 86px;
+	    right: -71px;
+	    width: 77%;
+	}
+
+	.remain ul {
+	    top: 72px;
+	    left: 48px;
+	}
+
+	.new-products-title h3 {
+	    font-size: 26px;
+	}
+
+	.caysao h6 {
+		font-size: 17px;
+	}
+
+	.conco ul li {
+	    padding: 2px;
+	}
+
+	.men-icon {
+	    top: 86px;
+	    left: 16px;
+	}
+
+	button.btn-primary {
+	    padding: 19px 106px;
+	}
+}
+
+
+@media screen and (max-width: 360px) {
+	.top-menu ul li {
+	    margin-left: 4px;
+	}
+
+	.bottom-menu ul li a {
+	    padding: 4px;
+	}
+
+	.banner h6 {
+	    padding: 14px 5px;
+	    font-size: 14px;
+	}
+
+	.women-wear {
+	    top: 57%;
+	    width: 76%;
+	}
+
+	.dauhoi1 {
+	    padding: 2px 4px;
+	}
+
+	.dauhoi2 {
+	    padding: 8.4px 8px;
+	}
+
+	.dauhoi3 {
+	    padding: 8.4px 8px;
+	}
+
+	.dauhoi4 {
+	    padding: 5.4px 6px;
+	}
+
+	.too-hard {
+	    bottom: 81px;
+	    right: -65px;
+	}
+
+	.remain ul {
+	    top: 70px;
+	    left: 38px;
+	}
+
+	.associate-products-content div.men-icon {
+		top: 44px;
+    	left: 6px;
+	}
+
+	.men-icon {
+		top: 71px;
+		left: 12px;
+	}
+
+	.women-products-content .men-icon {
+		top: 61px;
+		left: 5px;
+	}
+
+	.kid-products-content .men-icon {
+		top: 61px;
+		left: 0px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.men-wear {
+		width: 66.6%;
+	}
+
+	.men-wear h2 {
+	    font-size: 30px;
+	}
+	
+	.men-wear p {
+	    font-size: 10px;
+	}
+
+	.women-wear h3 {
+	    font-size: 28px;
+	}
+
+	.thanos li {
+	    padding: 8px 6px;
+	}
+
+	._2nd {
+	    padding: 3.4px 8px !important;
+	}
+
+	._3rd {
+	    padding: 3.4px 8px !important;
+	}
+
+	._4th {
+	    padding: 4px !important;
+	}
+	
+	.dauhoi1 a {
+		font-size: 24px;
+	}
+
+	.top-menu ul li a {
+	    font-size: 13px;
+	}
+	
+	.bottom-menu ul li {
+		margin: 5px;
+	}
+
+	.bottom-menu ul li a {
+	    padding: 4px;
+	    font-size: 14px;
+	}
+
+	.bottom-menu ul li i {
+	    padding-left: 4px;
+	}
+
+	ul.marco {
+	    width: 128px;
+	}
+
+	.men-wear {
+		width: 66.6%;
+		bottom: 39px;
+	}
+
+	.banner h6 {
+		padding: 8px 0;
+	}
+
+	.women-wear {
+	    top: 50%;
+	    width: 62%;
+	}
+
+	.too-hard {
+	    bottom: 72px;
+	    right: -56px;
+	}
+
+	.too-hard h2 {
+	    font-size: 38px;
+	}
+
+	.maudo {
+	    padding: 29.6px 10px;
+	}
+
+	.remain .thanos li {
+	    padding: 10px;
+	}
+
+	.remain .thanos li._2nd {
+	    padding: 5.6px 10px !important;
+	}	
+
+	.remain .thanos li._3rd {
+	    padding: 5.6px 10px !important;
+	}
+
+	.remain .thanos li._4th {
+	    padding: 11px !important;
+	}
+
+	.remain ul {
+	    top: 66px;
+	    left: 26px;
+	}
+
+	.new-products .owl-theme .owl-nav [class*=owl-] {
+	    padding: 6px 10px;
+	}
+
+	.new-products .owl-prev {
+	    top: -47px;
+	    right: 30px;
+	}
+
+	.new-products .owl-next {
+	    top: -47px;
+	    right: -5px;
+	}
+
+
+	.featured .owl-theme .owl-nav [class*=owl-] {
+	    padding: 6px 10px;
+	}
+
+	.featured .owl-prev {
+	    top: -74px;
+	    right: 30px;
+	}
+
+	.featured .owl-next {
+	    top: -74px;
+	    right: -5px;
+	}
+
+	.hard {
+		padding: 8px 0;
+	}
+
+	.caysao h6 {
+	    font-size: 14px;
+	}
+
+	.conco ul li a {
+		font-size: 18px
+	}
+
+	.men-icon ul li {
+		padding: 6px 8px;
+	}
+
+	.men-icon ul li i {
+		font-size: 1.5em;
+	}
+
+	.men-icon {
+	    top: 64px;
+	    left: 10px;
+	}
+
+	button.btn-primary {
+	    padding: 19px 80px;
+	}
+}
+
+
+
